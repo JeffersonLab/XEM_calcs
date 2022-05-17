@@ -1,0 +1,4 @@
+*.dat
+!Arr/*
+*_Data/*
+**/.ipynb_checkpoints/*
