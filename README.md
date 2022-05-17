@@ -3,7 +3,6 @@ Various plots and calculations related to the XEM experiments
 
 ## Structure
 ### Folders
-Folders with "\_Data" appended have comments stripped for ease of processing.
 - density
     - Single nucleon density distributions
 - density2
@@ -13,7 +12,7 @@ Folders with "\_Data" appended have comments stripped for ease of processing.
 - NNmomentumq
     - Two nucleon momentum distributions
 
-There is code in BigDataMaking under the 'Formatting the data files' header to convert original files (read from without \_Data folders) to just the data sections (write to with \_Data folders).
+There is code in BigDataMaking under the 'Formatting the data files' header to convert original files to just the data sections (written to /\*\_Data folders).
 
 Additional nuclei can be added to the summary file by processing the original data and rerunning the summary generator script.
 
@@ -27,7 +26,6 @@ The SRF 21 Plots verses A (alt) notebook compares calculated data to 'Arr' data.
 
 ## Notation
 ### Data files
-
 - R
     - radius in fm
 - RHORP
