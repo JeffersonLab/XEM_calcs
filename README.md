@@ -52,8 +52,8 @@ Shown here are just the proton calculations. All calculations for neutrons are t
 
 ### Momentum:
 - momNormP
-Momentum normalization for protons (approx. number of protons)
-4\*PI\*TOTINT(RHOKP\*K\*\*2:K)/(2\*PI)\*\*3
+    - Momentum normalization for protons (approx. number of protons)
+    - 4\*PI\*TOTINT(RHOKP\*K\*\*2:K)/(2\*PI)\*\*3
 - mom1P
     - Number of protons above K = 1.5
     - 4\*PI\*TOTINT(RHOKP\*K\*\*2:K)/(2\*PI)\*\*3
