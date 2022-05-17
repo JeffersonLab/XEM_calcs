@@ -14,11 +14,16 @@ Folders with "\_Data" appended have comments stripped for ease of processing.
     - Two nucleon momentum distributions
 
 There is code in BigDataMaking under the 'Formatting the data files' header to convert original files (read from without \_Data folders) to just the data sections (write to with \_Data folders).
-Additional nuclei can be added to the summary file by processing the original data and rerunning the summary generator script
+
+Additional nuclei can be added to the summary file by processing the original data and rerunning the summary generator script.
+
 ARR and Arr are data from article: https://inspirehep.net/literature/1388760
+
 Output summary files contain calculations from the starting data.
+
 The calcuation code is in BigDataMaking under the 'calculations and calling bigmod' heading.
-The SRF 21 Plots verses A (alt) notebook compares calculated data to 'Arr' data
+
+The SRF 21 Plots verses A (alt) notebook compares calculated data to 'Arr' data.
 
 ## Notation
 ### Data files
